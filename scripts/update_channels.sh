@@ -3,7 +3,7 @@
 set -e
 set -x
 
-. /opt/hpfeeds/env/bin/activate
+sudo ./opt/hpfeeds/env/bin/activate
 
 
 # update the hpfeeds channels used by mnemosyne
