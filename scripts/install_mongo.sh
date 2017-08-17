@@ -25,7 +25,7 @@ ExecStart=/usr/bin/mongod --quiet --config /etc/mongod.conf
 [Install]
 WantedBy=multi-user.target
 EOF
-
+        echo "GOT HERE SLEEPING!!!"
         sleep 30
 
         systemctl start mongodb
